@@ -90,14 +90,18 @@ function Auxiliary.XenoMatCheckSummoned(c,matfilter)
 end
 
 -- aux.XenoMatCheckOthers = "... all other materials are ..."
---	-- matfilter: Required function
-function Auxiliary.XenoMatCheckOthers(c,matfilter)
+-- matfilter: Required function
+function Auxiliary.XenoMatCheckOthers(c,matfilter,reset,reset_count)
 	if not matfilter then return false end
+	if not reset_count then reset_count=1 end
 	local e1=Effect.CreateEffect(c)
 	e1:SetType(EFFECT_TYPE_SINGLE)
 	e1:SetProperty(EFFECT_FLAG_UNCOPYABLE+EFFECT_FLAG_CANNOT_DISABLE)
 	e1:SetCode(EFFECT_FUSION_MAT_RESTRICTION)
 	e1:SetValue(matfilter)
+	if reset then
+		e1:SetReset(reset,reset_count)
+	end
 	c:RegisterEffect(e1)
 	local e2=e1:Clone()
 	e2:SetCode(EFFECT_SYNCHRO_MAT_RESTRICTION)

@@ -2,7 +2,7 @@
 
 This repository provides updates for custom cards in [Project Ignis: EDOPro](https://github.com/edo9300/edopro), maintained by **Project Underground**.
 
-Pull requests are not accepted here. If you want to contribute, please refer to our guidelines from [CardScripts](https://github.com/YGOProjectUnderground/CardScripts) and [VaultCDB](https://github.com/YGOProjectUnderground/VaultCDB).
+Pull requests are not accepted here. If you want to contribute, please refer to our guidelines from [CardScripts](https://github.com/YGOProjectUnderground/CardScripts) and [VaultCDB](https://github.com/YGOProjectUnderground/VaultCDB). For any questions or support, join our [Discord community](https://discord.gg/NwPa6mwyYx).
 
 ## How to receive cards & updates  
 
@@ -37,4 +37,4 @@ To enable updates from this repository, follow these steps:
 
 - **Windows**: `This PC > (C:) > ProjectIgnis > config`  
 - **Mac**: `Applications > ProjectIgnis > config`  
-- **Android**: `EDOPro > config` (in the uppermost directory of your device's internal storage)  
+- **Android**: `EDOPro > config` (in the uppermost directory of your device's internal storage)

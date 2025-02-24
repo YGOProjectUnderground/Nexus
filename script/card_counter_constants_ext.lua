@@ -1,11 +1,11 @@
 --Cards with double names
 
 --Commonly used cards
-CARD_CONSTELLARKNIGHT_TROIVERNUM        = 2202500110
+CARD_CONSTELLARKNIGHT_TROIVERNUM        = 2002000086
 CARD_TOON_WORLD							= 15259703
-CARD_NATURIA_WENDI						= 2202500086
-CARD_NEKROZ_OUROBOROS					= 2202500104
-CARD_THE_AZURE_PROJECT             = 2202500252
+CARD_NATURIA_WENDI						= 2002000062
+CARD_NEKROZ_OUROBOROS					= 2002000080
+CARD_THE_AZURE_PROJECT             = 2003000037
 
 --Commonly used Tokens
 
@@ -16,6 +16,7 @@ CARD_THE_AZURE_PROJECT             = 2202500252
 --Commonly used counters
 COUNTER_BLAZE						= 0x271
 COUNTER_HONEY						= 0x272
+COUNTER_SPARKWAVE       = 0x2a7
 
 --Archetypes
 SET_EXODIA_NECROSS 				= 0x10de
@@ -31,3 +32,4 @@ SET_STELLARNOVA 				   = 0x997
 SET_AZURIST                        = 0xf16
 SET_STARRYTAIL                     = 0xf13
 SET_LYCANSQUAD                     = 0xf17
+SET_SPARKWAVE                      = 0x2a7
